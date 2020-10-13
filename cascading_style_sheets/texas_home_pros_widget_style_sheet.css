@@ -1,8 +1,10 @@
 /* This file should be used at the top of the cascade, IE this will be imported FIRST then if we need to change styling further
      for a specific widget we will create another cascading style sheet for the widget specifically. */
 
+
 #widget_container {
     padding: 1em;
     margin: 1em;
     border: 1px solid black;
+    background-color: #7f5f2c;
 }
