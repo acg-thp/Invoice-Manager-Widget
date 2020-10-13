@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="UTF-8">
   <title>Invoice Manager Widget</title>
@@ -17,11 +17,21 @@
   <body>
    <div id="widget_container">
      <div id="invoice_manager_widget_container">
-       <input id="invoice_file_upload_input" class="" type="file" autocomplete="off" name="file" placeholder="Invoice File Upload"/>
-       <button id="invoice_file_upload_button" class="">
-         <span>Upload Invoice File</span>
-         <i>&#x2192;</i>
-       </button>
+       <form class="pure-form">
+         <fieldset>
+           <legend style="color:white;">Select the Invoice File you wish to process then click Upload Invoice File</legend>
+           <input id="invoice_file_upload_input" class="" type="file" autocomplete="off" name="file" placeholder="Invoice File Upload"/>
+           <button id="invoice_file_upload_button" class="pure-button pure-button-primary">
+             <span>Upload Invoice File</span>
+             <i>&#x2192;</i>
+           </button>
+        </fieldset>
+      </form>
+     </div>
+     <div id="invoice_manager_view_container">
+       <canvas>
+
+       </canvas>
      </div>
    </div>
   </body>
