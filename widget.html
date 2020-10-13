@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Invoice Manager Widget</title>
+  <!-- Start Internal Libraries -->
+  <link rel="stylesheet" href="./cascading_style_sheets/texas_home_pros_widget_style_sheet.css">
+  <script src="./javascript/texas_home_pros_widget_javascript_library.js"></script>
+  <!-- End Internal Libraries -->
+
+  <!-- Start Third Party Libraries NOTE: Please use integrity if stored in a cdn/another site -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+  <script src="https://js.zohostatic.com/creator/widgets/version/1.0/widgetsdk-min.js" integrity="sha384-/Yaodc7PUuaRA/oIOyHqcx1mudMMfczwoTClYrJKHSmZNlZ/6+FpXUd2eP/Khkcf" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js" integrity="sha512-Z8CqofpIcnJN80feS2uccz+pXWgZzeKxDsDNMD/dJ6997/LSRY+W4NmEt9acwR+Gt9OHN0kkI1CTianCwoqcjQ==" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+</head>
+  <body>
+   <div id="widget_container">
+     <div id="invoice_manager_widget_container">
+       <input id="invoice_file_upload_input" class="" type="file" autocomplete="off" name="file" placeholder="Invoice File Upload"/>
+       <button id="invoice_file_upload_button" class="">
+         <span>Upload Invoice File</span>
+         <i>&#x2192;</i>
+       </button>
+     </div>
+   </div>
+  </body>
+</html>
